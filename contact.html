@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="mn">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Холбоо барих</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Холбоо барих</h1>
+        </header>
+
+        <nav>
+            <a href="index.html">Нүүр</a> <br>
+            <a href="about.html">Миний тухай</a> <br>
+            <a href="interests.html">Миний сонирхол</a> <br>
+            <a href="plans.html">Миний төлөвлөгөө</a> <br>
+            <a href="contact.html">Холбоо барих</a>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Надтай холбоо барих</h2>
+                <p>Доорх маягтыг ашиглан санал, хүсэлтээ илгээж болно.</p>
+
+                <!-- form - Хэрэглэгчээс мэдээлэл авах маягт -->
+                <!-- <label> - input ийн нэр/тайлбар -->
+                <!-- <input> - 1 мөр мэдээлэл авах -->
+                <!-- textarea - олон мөр текст авах -->
+                <!-- for="name" болон id="name" хоёр ижил утгатай учраас хоорондоо холбогдож байгаа -->
+                <form>
+                    <p>
+                        <label for="name">Нэр:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Цахим шуудан:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="message">Зурвас:</label><br>
+                        <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+                    </p>
+
+                    <button type="submit">Илгээх</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Te Zulaa</p>
+        </footer>
+    </body>
+</html>
